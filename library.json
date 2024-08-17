@@ -1,0 +1,22 @@
+{
+  "name": "esp32-rmt-ir",
+  "version": "1.0.0",
+  "keywords": "infrared, ir, remote, esp32",
+  "description": "Minimal, non-blocking, IR library for ESP32 using RMT pheripheral, supports NEC, Sony, Samsung and RC5 transmit and receive, lightweight, no dependencies, will need Arduino esp32 3.x based on IDF 5.X ",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/ItThinkIoT/esp32-rmt-ir"
+  },
+  "authors": [
+    {
+      "name": "Guihgo",
+      "url": "https://github.com/Guihgo",
+      "maintainer": true
+    }
+  ],
+  "exclude": [".github", "extras", "docs", "assets"],
+  "frameworks": "arduino",
+  "libCompatMode": "strict",
+  "platforms": ["espressif32"]
+}

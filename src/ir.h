@@ -1,5 +1,5 @@
 /*
-https://github.com/junkfix/esp32-rmt-ir
+https://github.com/ItThinkIoT/esp32-rmt-ir
 */
 
 #ifndef ir_rmt_esp32

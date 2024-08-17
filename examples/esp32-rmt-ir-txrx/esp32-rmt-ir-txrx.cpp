@@ -1,7 +1,7 @@
 /*
-https://github.com/junkfix/esp32-rmt-ir
+https://github.com/ItThinkIoT/esp32-rmt-ir
 */
-#include "ir_rmt_esp32.h"
+#include "ir.h"
 
 void irReceived(irproto brand, uint32_t code, size_t len, rmt_symbol_word_t *item){
 	if( code ){

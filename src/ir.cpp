@@ -1,7 +1,7 @@
 /*
-https://github.com/junkfix/esp32-rmt-ir
+https://github.com/ItThinkIoT/esp32-rmt-ir
 */
-#include "esp32-rmt-ir.h"
+#include "ir.h"
 
 uint8_t irRxPin = 34;
 uint8_t irTxPin = 4;
